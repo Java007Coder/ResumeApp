@@ -4,20 +4,27 @@
  */
 package com.mycompany.entity;
 
+import com.mycompany.dao.inter.AbstractDAO;
+
 /**
  *
  * @author Ravan
  */
-public class Country {
+public class Country extends AbstractDAO {
 
     private int id;
     private String name;
-    private String nationality;
+    private Nationality nationality;
 
     public Country() {
     }
 
-    public Country(int id, String name, String nationality) {
+    public Country(String name, Nationality nationality) {
+        this.name = name;
+        this.nationality = nationality;
+    }
+
+    public Country(int id, String name, Nationality nationality) {
         this.id = id;
         this.name = name;
         this.nationality = nationality;
@@ -32,24 +39,46 @@ public class Country {
     }
 
     public String getName() {
-        return nationality;
+        return name;
     }
 
     public void setName(String name) {
-        this.nationality = name;
+        this.name = name;
     }
 
-    public String getNationality() {
+    public Nationality getNationality() {
         return nationality;
     }
 
-    public void setNationality(String nationality) {
+    public void setNationality(Nationality nationality) {
         this.nationality = nationality;
     }
 
     @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 13 * hash + this.id;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Country other = (Country) obj;
+        return this.id == other.id;
+    }
+
+    @Override
     public String toString() {
-        return name + ", " + nationality;
+        return name;
     }
 
 }

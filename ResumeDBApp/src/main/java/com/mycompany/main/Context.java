@@ -6,11 +6,13 @@ package com.mycompany.main;
 
 import com.mycompany.dao.impl.CountryDaoImpl;
 import com.mycompany.dao.impl.EmploymentHistoryDaoImpl;
+import com.mycompany.dao.impl.NationalityDaoImpl;
 import com.mycompany.dao.impl.SkillDaoImpl;
 import com.mycompany.dao.impl.UserDaoImpl;
 import com.mycompany.dao.impl.UserSkillDaoImpl;
 import com.mycompany.dao.inter.CountryDaoInter;
 import com.mycompany.dao.inter.EmploymentHistoryDaoInter;
+import com.mycompany.dao.inter.NationalityDaoInter;
 import com.mycompany.dao.inter.SkillDaoInter;
 import com.mycompany.dao.inter.UserDaoInter;
 import com.mycompany.dao.inter.UserSkillDaoInter;
@@ -39,6 +41,10 @@ public class Context {
 
     public static SkillDaoInter instanceSkillDao() {
         return new SkillDaoImpl();
+    }
+
+    public static NationalityDaoInter instanceNationalityDao() {
+        return new NationalityDaoImpl();
     }
 
 }

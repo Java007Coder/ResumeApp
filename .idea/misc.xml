@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ResumeWebApp" />
+    <file type="web" url="file://$PROJECT_DIR$/ResumeWebApp2" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ResumeDBApp/pom.xml" />
+        <option value="$PROJECT_DIR$/ResumeWebApp/pom.xml" />
+        <option value="$PROJECT_DIR$/ResumeWebApp2/pom.xml" />
+        <option value="$PROJECT_DIR$/ResumeDesktopApp/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

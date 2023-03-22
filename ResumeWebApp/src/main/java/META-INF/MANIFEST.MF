@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: protobuf-java-3.6.1.jar el-api.jar jasper.jar jsp-api.jar ca
+ talina.jar ecj-4.20.jar jasper-el.jar jaspic-api.jar tomcat-api.jar tom
+ cat-jni.jar catalina-ha.jar servlet-api.jar tomcat-dbcp.jar tomcat-jdbc
+ .jar tomcat-util.jar catalina-ant.jar catalina-ssi.jar tomcat-coyote.ja
+ r websocket-api.jar tomcat-i18n-cs.jar tomcat-i18n-de.jar tomcat-i18n-e
+ s.jar tomcat-i18n-fr.jar tomcat-i18n-ja.jar tomcat-i18n-ko.jar tomcat-i
+ 18n-ru.jar annotations-api.jar catalina-tribes.jar tomcat-util-scan.jar
+  tomcat-websocket.jar tomcat-i18n-pt-BR.jar tomcat-i18n-zh-CN.jar catal
+ ina-storeconfig.jar
+

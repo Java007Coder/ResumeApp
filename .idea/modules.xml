@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ResumeApp.iml" filepath="$PROJECT_DIR$/.idea/ResumeApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResumeDBApp/ResumeDBApp.iml" filepath="$PROJECT_DIR$/ResumeDBApp/ResumeDBApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResumeDesktopApp/ResumeDesktopApp.iml" filepath="$PROJECT_DIR$/ResumeDesktopApp/ResumeDesktopApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResumeWebApp/resumewebapp.iml" filepath="$PROJECT_DIR$/ResumeWebApp/resumewebapp.iml" />
+    </modules>
+  </component>
+</project>

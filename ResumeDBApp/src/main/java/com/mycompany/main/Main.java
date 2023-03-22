@@ -4,17 +4,15 @@
  */
 package com.mycompany.main;
 
-import com.mycompany.dao.inter.SkillDaoInter;
+import com.mycompany.dao.inter.UserDaoInter;
 
 /**
- *
  * @author Ravan
  */
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        SkillDaoInter skill = Context.instanceSkillDao();
-        System.out.println(skill.getAllSkill());
+        UserDaoInter user = Context.instanceUserDao();
+        System.out.println(user.getAll(null, null, 1));
     }
-
 }

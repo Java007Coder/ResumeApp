@@ -13,7 +13,7 @@ public class User_Skill {
     private Integer id;
     private User user;
     private Skill skill;
-    private int power;
+    private Integer power;
 
     public User_Skill() {
     }
@@ -49,11 +49,11 @@ public class User_Skill {
         this.skill = skill;
     }
 
-    public int getPower() {
+    public Integer getPower() {
         return power;
     }
 
-    public void setPower(int power) {
+    public void setPower(Integer power) {
         this.power = power;
     }
 

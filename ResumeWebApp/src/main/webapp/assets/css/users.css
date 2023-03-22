@@ -1,0 +1,47 @@
+body {
+    font-size: 20px;
+}
+
+.btn {
+    color: #fff;
+    background-color: blueviolet;
+    font-size: 15px;
+}
+
+.btn_table {
+
+    /*border: 0px;*/
+    /*font-size: 20px;*/z
+    border: none;
+    color: yellow;
+    font-size: 20px;
+    background-color: white;
+
+}
+
+.style {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid #b59e9e;
+}
+
+.control_panel {
+    border: 1px solid;
+}
+
+.control_panel input {
+    color: blueviolet;
+    border: 1px solid;
+    padding: 5px;
+
+}
+
+.control_panel label {
+    width: 10%;
+    border: 1px solid;
+    display: inline-block;
+}
+
+.control_panel_group {
+    margin-top: 2px;
+}
